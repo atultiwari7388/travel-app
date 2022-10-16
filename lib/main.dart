@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app_with_block/view/BottomNavBarScreens/main_screen.bottomnavbar.view.dart';
 import 'package:travel_app_with_block/view/Welcome/welcome_screen.view.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const WelcomeScreen(),
+      home: const MainScreen(),
     );
   }
 }
